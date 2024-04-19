@@ -1,0 +1,268 @@
+@font-face {
+  font-family: "Montserat-Bold";
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Montserat-Regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Reg";
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: "PTSerif-Bold";
+  src: url(../fonts/PTSerif-Bold.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.block {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #d73426;
+}
+.container {
+  /* max-width: 1010px; */
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 36px 105px 155px 84px;
+  height: 690px;
+  background-image: url(../img/фон1.png);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  margin-bottom: 131px;
+}
+.menu-items ul {
+  list-style: none;
+  display: flex;
+}
+.menu-items li {
+  margin-left: 10px;
+}
+.menu-items a {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 02s;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Montserat-Regular";
+  color: rgb(255, 255, 255);
+  line-height: 1.222;
+}
+.menu-items a:hover {
+  background-color: #130e27;
+  color: #fff;
+}
+.content-first {
+  text-align: left;
+  max-width: 460px;
+}
+.content-first-title1,
+.content-first-title2 {
+  font-size: 75px;
+  font-family: "Montserat-Bold";
+  color: rgb(19, 14, 39);
+  margin: 0;
+  line-height: 70px;
+}
+.content-first-title2 {
+  color: #fff;
+  margin-bottom: 49px;
+}
+
+.content-first-text {
+  font-family: PTSerif-Bold;
+
+  font-size: 17px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+  margin: 0;
+}
+/* Второй блок  */
+.container2 {
+  padding: 5px 105px 1px 84px;
+  background-color: #fff;
+  /* border: 1px solid #090909; */
+}
+.services {
+  margin-top: 43px;
+}
+.services-hed {
+  padding-left: 5px;
+  margin: 0;
+  font-family: Montserat-Bold;
+  font-size: 50px;
+  color: #130e27;
+}
+.services-hed span {
+  color: rgb(198, 35, 20);
+}
+.services-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 97px;
+  margin-bottom: 68px;
+}
+.icons-block {
+  text-align: center;
+  width: 175px;
+}
+.icons-block img {
+  margin-bottom: 65px;
+}
+.icons-block:nth-child(-n + 2) img {
+  margin-bottom: 80px;
+}
+.icons-block i {
+  color: rgb(19, 14, 39);
+  font-size: 170px;
+  margin-bottom: 39px;
+}
+.services-footer {
+  border-radius: 5px;
+  background-color: rgb(19, 14, 39);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 105px 0 84px;
+  align-items: center;
+}
+.services-footer p {
+  width: 605px;
+  font-size: 20px;
+  font-family: "PTSerif-Reg";
+  color: rgb(255, 255, 255);
+  line-height: 28px;
+}
+.services-footer button {
+  border-radius: 5px;
+  background-color: rgb(198, 35, 20);
+  width: 269px;
+  height: 64px;
+  color: #ffffff;
+  margin: 31px 0 24px 0;
+  font-size: 22px;
+  font-family: Montserat-Regular;
+}
+.container3 {
+  padding: 65px 105px 65px 84px;
+  background-color: #efefef;
+  /* border: 1px solid #090909; */
+}
+.pricing {
+  text-align: center;
+}
+.pricing-title {
+  font-size: 50px;
+  font-family: "Montserat-Bold";
+  color: rgb(19, 14, 39);
+  line-height: 80px;
+  margin: 0 0 60px;
+}
+.pricing-boxes {
+  display: flex;
+}
+.box {
+  width: 316px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 22px;
+  padding-bottom: 10px;
+}
+.box-title {
+  font-size: 22px;
+  font-family: "PTSerif-Reg";
+  color: rgb(22, 22, 22);
+  line-height: 1.273;
+}
+.box-head {
+  font-size: 60px;
+  font-family: "Montserat-Bold";
+  color: rgb(198, 35, 20);
+  line-height: 60px;
+  margin: 0;
+}
+.paragrahers {
+  height: 140px;
+  margin-top: 33px;
+}
+.box-parag {
+  font-size: 20px;
+  font-family: "PTSerif-Reg";
+  color: rgb(22, 22, 22);
+  line-height: 28px;
+  margin: 0;
+}
+.box-line span {
+  background-color: rgb(22, 22, 22);
+  width: 6px;
+  height: 1px;
+  margin: 0 auto;
+  display: inline-block;
+}
+.box-btn {
+  margin-top: 40px;
+  border-radius: 4px;
+  background-color: rgb(19, 14, 39);
+  width: 205px;
+  height: 49px;
+  font-size: 22px;
+  font-family: "Montserat-Regular";
+  color: rgb(255, 255, 255);
+  line-height: 22px;
+  text-align: center;
+  transition: all 0.2s;
+}
+.box-btn:hover {
+  background-color: #c62314;
+}
+/* Футер раздела прайс */
+.pricing-footer {
+  border-radius: 3px;
+  background-color: rgb(19, 14, 39);
+  max-width: 1200px;
+  padding: 0 105px 0 84px;
+}
+.footer-box {
+  height: 188px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-box-text {
+  font-size: 20px;
+  font-family: "PTSerif-Reg";
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  width: 540px;
+  height: 19px;
+}
+.footer-box-text span {
+  color: #a21f18;
+}
+.fotter-box-logo {
+  margin-top: 30px;
+}
+
+/* 
+
+
+ */
+
+/* при измерении ширины блока футер, выдиление получаем значение 1200 При получении данных по этому элементу из слоев получаем ширину 1280. Так же не состыковка в lie-height - разные значения из Слоев и полученнные через выделение */
+.fotter-box-logo::before {
+  content: url("../img/Shape\ 106.png");
+}
